@@ -1,0 +1,10 @@
+/* Public by design: the project URL and the publishable key are meant to sit in a web page.
+   What protects the data is row-level security inside the database, not secrecy of these values.
+   Never put the service_role / secret key or the database password here. */
+window.PANEL_CONFIG = {
+  url: 'https://bxrwcdonxeirhvpinwpz.supabase.co',
+  key: 'sb_publishable_j0TSi0ik_6HZ_EccF01wvg_Nifs-YXT',
+  altUrl: 'https://green-note-7q2.arieticlaude.workers.dev',      // آدرس واسطهٔ Cloudflare (اگر supabase.co از شبکهٔ کاربر بسته بود)
+  secretaryWhatsApp: '989387148988',
+  vapidPublicKey: 'BNnmLD_njHjOGJUOARmsbgGMDjynP2hXMOiBKdNDMDNno35D01yHWcIPA8JltASUWHTbEAxH7Kt1MswoivnySy4'
+};
